@@ -25,9 +25,18 @@ MyAccountingApp/
 └── .gitignore
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/HsuehYu1027/MyAccountingApp.git](https://github.com/HsuehYu1027/MyAccountingApp.git)
+git clone https://github.com/HsuehYu1027/MyAccountingApp.git
 cd MyAccountingApp
+```
+**2. Compile the source code (using g++):**
+```bash
+g++ src/*.cpp -I include -o app.exe
+```
+**3. Run the application:**
+```bash
+.\app.exe
+```
